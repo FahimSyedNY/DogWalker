@@ -12,6 +12,9 @@ public class DogWalkCompany {
         }
         return s;
     }
+    public DogWalkCompany(int[] schedule) {
+        this.schedule = schedule;
+    }
     public int addDogs() {
         Scanner s = new Scanner(System.in);
         System.out.println("What hour?");
